@@ -192,6 +192,7 @@ module "dcos" {
 | dcos_zk_agent_credentials | [Enterprise DC/OS] set the ZooKeeper agent credentials (recommended) | string | `` | no |
 | dcos_zk_master_credentials | [Enterprise DC/OS] set the ZooKeeper master credentials (recommended) | string | `` | no |
 | dcos_zk_super_credentials | [Enterprise DC/OS] set the zk super credentials (recommended) | string | `` | no |
+| enable_mesos_input_plugin | Indicates whether to enable Telegraf's Mesos input plugin to collect Mesos metrics from Mesos masters and agents. (optional) | string | `` | no |
 | masters_associate_public_ip_address | [MASTERS] Associate a public ip address with there instances | string | `true` | no |
 | masters_aws_ami | [MASTERS] AMI to be used | string | `` | no |
 | masters_instance_type | [MASTERS] Instance type | string | `m4.xlarge` | no |

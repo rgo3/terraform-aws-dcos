@@ -271,4 +271,5 @@ module "dcos-install" {
   dcos_zk_agent_credentials                    = "${var.dcos_zk_agent_credentials}"
   dcos_zk_master_credentials                   = "${var.dcos_zk_master_credentials}"
   dcos_zk_super_credentials                    = "${var.dcos_zk_super_credentials}"
+  enable_mesos_input_plugin                    = "${var.enable_mesos_input_plugin}"
 }
